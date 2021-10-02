@@ -40,8 +40,8 @@ public class MainApp {
         System.out.println(burger.isEdible());
 
         Drink drink = new CocaCola("orange-coke",4.99);
-        int drinkConsume = ((CocaCola) drink).consume();
-        System.out.println(drinkConsume);
+
+        System.out.println(((CocaCola) drink).consume());
         String[] ingredients = {"water", "sugar"};
 
         Product.printIngredients(ingredients);
