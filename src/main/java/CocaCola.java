@@ -6,6 +6,6 @@ public class CocaCola extends Drink{
 
     @Override
     public int consume() {
-        return 0;
+        return (int)(Math.random() * 999);
     }
 }

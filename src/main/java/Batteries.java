@@ -6,6 +6,6 @@ public class Batteries extends Product implements Consumable{
 
     @Override
     public int consume() {
-        return (int)Math.random() * 999;
+        return (int)(Math.random() * 999);
     }
 }
